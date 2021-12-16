@@ -9,7 +9,8 @@ def escalera(tamaño):
     for j in range(0,tamaño-1-i): #Bucle para dejar espacios
         linea=linea + " "
     for k in range(0,i+1):
-            linea = linea + "# " #Bucle para printear la escalera
+        linea = linea + "# " #Bucle para printear la escalera
+    print(linea)
 
 
 
