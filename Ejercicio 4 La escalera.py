@@ -3,12 +3,12 @@ import os
 import random
 import re
 import sys
-def staircase(n):
+def escalera(tamaño):
 # Write your code here
 
 
 
 if __name__ == '__main__':
-    n = int(input().strip())
+    tamaño = int(input().strip())
 
-    staircase(n)
+    escalera(n)
