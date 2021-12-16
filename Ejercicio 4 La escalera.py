@@ -5,9 +5,11 @@ import re
 import sys
 def escalera(tamaño):
     for i in range(0,tamaño): #Bucle para crear las líneas
-        linea=" "
-    for j in range(0,tamaño-1-i):
-            linea=linea + " "
+        linea=""
+    for j in range(0,tamaño-1-i): #Bucle para dejar espacios
+        linea=linea + " "
+    for k in range(0,i+1):
+            linea = linea + "# " #Bucle para printear la escalera
 
 
 
