@@ -12,12 +12,14 @@ import sys
 #
 
 def gradingStudents(grades):
-    # Write your code here
+
+def notas_finales(grade):
+    
 
 if __name__ == '__main__':
     fptr = sys.stdoubt
 
-    grades_count = int(input().strip())
+    grades_count = int(input().strip()) 
 
     grades = []
 
