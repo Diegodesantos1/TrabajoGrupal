@@ -12,4 +12,4 @@ def escalera(tamaño):
 if __name__ == '__main__':
     tamaño = int(input().strip())
 
-    escalera(n)
+    escalera(tamaño)
