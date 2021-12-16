@@ -3,7 +3,10 @@ import os
 import random
 import re
 import sys
-def simpleArraySum(ar):
+def SumaSimple(ar):
+    suma = 0 #Comienza en 0 la suma
+    for i in ar:
+        suma = suma + i
 
 
 
