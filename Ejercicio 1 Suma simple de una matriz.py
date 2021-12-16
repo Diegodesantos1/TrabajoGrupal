@@ -3,25 +3,21 @@ import os
 import random
 import re
 import sys
-def SumaSimple(numeros):
-    suma = 0 #Comienza en 0 la suma
-    for i in ar:
-        suma = suma + i
+def Suma(numeros):
+    suma=0
+    for i in numeros:
+        suma= suma+i
     return suma
 
-
-
-
-
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = sys.stdout #Arreglado el error que no dejaba funcionar el código, de stackoverflow
     print("¿De qué tamaño quieres la matriz?")
-    tamaño_matriz = int(input().strip())
+    ar_count = int(input().strip())
     print("Introduzca los números a sumar separados por un espacio")
-    numeros= list(map(int, input().rstrip().split()))
-    
-    result = SumaSimple(ar)
-    fptr.write(str(result) + '\n')
-    
+    numeros = list(map(int, input().rstrip().split()))
+
+    resultado = Suma(numeros)
+
+    fptr.write(str(resultado) + '\n')
+
     fptr.close()
