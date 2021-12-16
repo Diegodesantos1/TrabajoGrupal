@@ -23,6 +23,9 @@ def gradingStudents(grades):
 
 def notas_finales(grades): 
     nota_redondeada = 0
+    if grades < 40:
+        nota_redondeada = grades
+    else:
     
 
 
