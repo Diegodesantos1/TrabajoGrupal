@@ -101,13 +101,10 @@ if __name__ == "__main__":
 ```
 ***
 
-## Ejercicio 4<a name="id4"></a>
-
-***
-
 ## Ejercicio 5<a name="id5"></a>
 
 ***
+
 
 ## Ejercicio 6<a name="id6"></a>
 
