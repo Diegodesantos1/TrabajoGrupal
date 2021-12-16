@@ -4,7 +4,8 @@ import random
 import re
 import sys
 def escalera(tamaño):
-# Write your code here
+    for i in range(0,tamaño): #Bucle para crear las líneas
+        linea=" "
 
 
 
