@@ -13,8 +13,14 @@ import sys
 
 def gradingStudents(grades):
 
-def notas_finales(grade):
-    
+#Según esta tarea si la calificación obtenida es menor que 40 no se redondeará,
+#puesto que menor de 40 ya es supenso y aunque se redondee será suspenso.
+
+#Por otro lado, si hay una diferencia menor que 3 entre el siguiente número de la nota  obtenida y la nota obtenida se resondeará
+#hasta el siguiente múltiplo de 5
+
+def notas_finales(grade): 
+
 
 if __name__ == '__main__':
     fptr = sys.stdoubt
