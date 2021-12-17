@@ -48,6 +48,7 @@ if __name__ == '__main__':
     fptr = (sys.stdout)  # Arreglado el error que no dejaba funcionar el código, de stackoverflow
     print("Cuántas partidas quieres jugar?")
     t = int(input().strip())
+    
     for t_itr in range(t):
         print("¿Cuántas piedras tienes?")
         n = int(input().strip())
