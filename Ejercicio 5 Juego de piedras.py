@@ -4,7 +4,7 @@ import random
 import re
 import sys
 
-def gameOfStones(n):
+def JuegoPiedras(n):
 
 
 
@@ -15,6 +15,6 @@ if __name__ == '__main__':
     t = int(input().strip())
     for t_itr in range(t):
     n = int(input().strip())
-    result = gameOfStones(n)
+    result = JuegoPiedras(n)
     fptr.write(result + '\n')
     fptr.close()
