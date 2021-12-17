@@ -13,6 +13,15 @@ def JuegoPiedras(n):
     return ganador
 
 def jugada(n):
+    buenajugada=0
+    modulo=n%7
+    if(modulo>=2 and modulo<=3):
+        buenajugada=2
+    elif(modulo==4):
+        buenajugada=3
+    elif(modulo>=5 and modulo<=6):
+        buenajugada=5
+    return
 
 
 if __name__ == '__main__':
