@@ -21,7 +21,7 @@ def jugadabuena(n):
         buenajugada=3
     elif(modulo>=5 and modulo<=6):
         buenajugada=5
-    return
+    return buenajugada
 
 
 def ejecutarjuego(n):
