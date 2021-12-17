@@ -104,6 +104,7 @@ if __name__ == "__main__":
 ## Ejercicio 5: Juego de piedras<a name="id5"></a>
 
 *En el quinto ejercicio teníamos que realizar un programa capaz de ejecutar un juego de unas piedras en las cuales los 2 jugadores van quitando un númrro de piedras concreto que tiene que ser 2, 3 o 5 y el jugador que se quede sin movimientos pierde, siempre empieza el P1 y se van alternando*
+
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/5?closed=1)
 
 
