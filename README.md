@@ -268,6 +268,7 @@ if __name__ == '__main__':
 
 ## Ejercicio 6: Laberinto<a name="id6"></a>
 
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/6?closed=1)
 
 
 **El código empleado para resolverlo es el siguiente:**
