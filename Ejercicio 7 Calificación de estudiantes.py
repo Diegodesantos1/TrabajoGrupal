@@ -4,12 +4,7 @@ import random
 import re
 import sys
 
-#
-# Complete the 'gradingStudents' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY grades as parameter.
-#
+
 
 def gradingStudents(grades):
     list = []
@@ -42,7 +37,7 @@ def notas_finales(grades):
 
 
 if __name__ == '__main__':
-    fptr = sys.stdoubt
+    fptr = sys.stdout
 
     grades_count = int(input().strip()) 
     grades = []
@@ -57,6 +52,7 @@ if __name__ == '__main__':
 
     result = gradingStudents(grades)
 
+    print('\n Notas redondeadas (según apliqué: \n')
     fptr.write('\n'.join(map(str, result)))
     fptr.write('\n')
 
