@@ -50,6 +50,7 @@ if __name__ == '__main__':
 
   
     for _ in range(grades_count):
+        print("Nota de cada estudiante:")
         grades_item = int(input().strip())
         grades.append(grades_item)
        
