@@ -147,9 +147,12 @@ if __name__ == '__main__':
     ar = list(map(int, input().rstrip().split()))
     result = aVeryBigSum(ar)
     fptr.write(str(result) + '\n')
-    fptr.close()```
+    fptr.close()
+    
+    ```
 
 ***
+
 
 ## Ejercicio 4: La escalera<a name="id4"></a>
 
