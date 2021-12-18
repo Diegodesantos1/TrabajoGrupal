@@ -388,6 +388,11 @@ if __name__ == '__main__':
 
 ## Ejercicio 7<a name="id7"></a>
 
+**El diagrama de flujo es el siguiente:**
+![EJERCICIO 7](https://user-images.githubusercontent.com/91721875/146656045-950c5403-6987-4627-b76d-00380b90331d.jpg)
+
+
+
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -423,8 +428,6 @@ def notas_finales(grades):
             nota_redondeada=grades
     return grades
     
-    
-
 
 
 if __name__ == '__main__':
