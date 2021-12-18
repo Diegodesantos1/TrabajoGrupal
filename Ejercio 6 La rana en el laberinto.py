@@ -89,8 +89,10 @@ if __name__ == '__main__':
 
     
     for n_itr in range(n):
-        row = input()
-# Write your code here
+        row = input("Fila" + str(n_itr) + "del laberinto:(#--> muro, %--> salida, *-->bomba, $--> vacía, o--> tunel")
+        laberinto.append(list(row))
+    tuneles = []
+
 for k_itr in range(k):
     second_multiple_input = input().rstrip().split()
     i1 = int(second_multiple_input[0])
