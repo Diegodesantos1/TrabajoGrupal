@@ -27,7 +27,6 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/TrabajoGrupa
 ***
 ## Ejercicio 1<a name="id1"></a>
 
-
 *En el primer ejercicio teníamos que realizar una suma de los elementos de una matriz, según el tamaño introducido y sus respectivos elementos*
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/1?closed=1)
@@ -67,6 +66,11 @@ if __name__ == "__main__":
 ***
 
 ## Ejercicio 2<a name="id2"></a>
+
+*En el segundo ejercicio teníamos que realizar un programa que dieses la nota final de tanto Lucía como carlos, asignandoles unos criterios, y después compararlas*
+
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2?closed=1)
+
 **El diagrama de flujo es el siguiente:**
 ![EJERCIO 3 ](https://user-images.githubusercontent.com/91721875/146654195-e1018a42-aee2-4ba7-b248-af053d79c4f4.jpg)
 
