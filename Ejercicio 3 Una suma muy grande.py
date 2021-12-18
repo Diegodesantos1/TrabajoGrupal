@@ -11,7 +11,7 @@ import sys
 # The function accepts LONG_INTEGER_ARRAY ar as parameter.
 #
 def aVeryBigSum(ar):
-# Write your code here
+    suma = 0
 
 
 if __name__ == '__main__':
