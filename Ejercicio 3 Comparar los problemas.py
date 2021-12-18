@@ -18,7 +18,7 @@ def compareTriplets(a, b):
 
 if __name__ == '__main__':
     fptr = sys.stdout
-    
+    print( "Escribe las notas de a (recuerda que debes introducir 3)")
     a = list(map(int, input().rstrip().split()))
     b = list(map(int, input().rstrip().split()))
     result = compareTriplets(a, b)
