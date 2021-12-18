@@ -32,6 +32,11 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/TrabajoGrupa
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/1?closed=1)
 
+**El digrama de flujo es el siguiente:**
+
+![figma tarea 1](https://user-images.githubusercontent.com/91721875/146649305-28f4f8cc-3ede-49c2-995e-72fa105a3b3a.jpg)
+
+
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
