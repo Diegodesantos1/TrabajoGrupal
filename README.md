@@ -35,8 +35,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/1
 
 ![tarea 1](https://user-images.githubusercontent.com/91721875/146649386-c84d6143-f95e-40f1-ada0-2c1d356fc4b2.jpg)
 
-
-
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -118,13 +116,11 @@ if __name__ == "__main__":
 
 *En el tercer ejercicio teníamos que realizar un programa que dada una sucesión de números, sea capaz de hallar el valor total de la suma*
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/3?closed=1)
 
 **El diagrama de flujo es el siguiente:**
 
 ![EJERCIO 3 0](https://user-images.githubusercontent.com/91721875/146655081-40f6de69-c68d-43ae-a45b-e5ab36774c35.jpg)
-
-
 
 **El código empleado para resolverlo es el siguiente:**
 
@@ -173,7 +169,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/4
 ![tarea 2](https://user-images.githubusercontent.com/91721875/146649604-bad62170-e37a-4039-9ecd-dd1618f34327.jpg)
 
 
-
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -207,8 +202,7 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/5
 
 ![JUEGO 5](https://user-images.githubusercontent.com/91721875/146653078-35d0602c-65ee-4fdf-89d9-102753a33967.jpg)
 
-
-
+**El código empleado para resolverlo es el siguiente:**
 
 ```python
 import math
@@ -271,7 +265,6 @@ if __name__ == '__main__':
     fptr.close()
 ```
 ***
-
 
 ## Ejercicio 6<a name="id6"></a>
 
@@ -392,7 +385,7 @@ if __name__ == '__main__':
 
 ***
 
-## Ejercicio 7:Estudiantes de calificación<a name="id7"></a>
+## Ejercicio 7: Estudiantes de calificación<a name="id7"></a>
 
 *En el séptimo ejercicio teníamos que realizar un programa capaz de redondear notas asignadas a los estudiantes según los criterios establecidos*
 
@@ -400,8 +393,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/7
 
 **El diagrama de flujo es el siguiente:**
 ![EJERCICIO 7](https://user-images.githubusercontent.com/91721875/146656045-950c5403-6987-4627-b76d-00380b90331d.jpg)
-
-
 
 **El código empleado para resolverlo es el siguiente:**
 
@@ -461,7 +452,7 @@ if __name__ == '__main__':
 ```
 ***
 
-## Ejercicio 8<a name="id8"></a>
+## Ejercicio 8: La manzana y naranja<a name="id8"></a>
 
 *En el octavo y último ejercicio teníamos que realizar un programa capaz de calcular el número de manzanas y naranjas que caen dentro de la casa de Sam, esta está denotada por dos números enteros, además hay que establecer la ubicación del manzano y del naranjo, el número de manzanas y naranjas que caían y su posición respecto del árbol de origen*
 
