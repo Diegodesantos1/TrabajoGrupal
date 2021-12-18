@@ -121,6 +121,8 @@ if __name__ == '__main__':
 **El diagrama de flujo es el siguiente:**
 
 
+![EJERCIO 3 0](https://user-images.githubusercontent.com/91721875/146655081-40f6de69-c68d-43ae-a45b-e5ab36774c35.jpg)
+
 
 
 **El código empleado para resolverlo es el siguiente:**
