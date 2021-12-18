@@ -10,6 +10,9 @@ def contarmanzanasnaranjas(s, t, a, b, apples, oranges):
     for manzana in apples:
         if(a+manzana>=s and a+manzana<=t):
             manzanasdentro+=1
+    for naranja in oranges:
+        if(b+naranja>=s and b+naranja<=t):
+            naranjasdentro+=1
 
 
 if __name__ == '__main__':
