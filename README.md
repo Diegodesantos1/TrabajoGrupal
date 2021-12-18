@@ -381,7 +381,8 @@ pos1= int(third_multiple_input[0])
 pos2 = int(third_multiple_input[0])
 
 probabilidad = exploracion(pos1,pos2,laberinto,n,m,tuneles)
-print(probabilidad)```
+print(probabilidad)
+```
 
 ***
 
