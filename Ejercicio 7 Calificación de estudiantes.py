@@ -46,11 +46,12 @@ if __name__ == '__main__':
 
     grades_count = int(input().strip()) 
 
-    grades = []
-
+  
     for _ in range(grades_count):
         grades_item = int(input().strip())
         grades.append(grades_item)
+        grades = []
+
 
     result = gradingStudents(grades)
 
