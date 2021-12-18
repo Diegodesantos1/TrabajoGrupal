@@ -101,23 +101,23 @@ def compareTriplets(a, b):
             puntosA +=1
             puntosB +=1
 
+   
     puntos_totales = [puntosA,puntosB]
-    return puntos_totales
+    print('Los puntos de Lucía y Carlos son los siguientes:', puntos_totales)
 
 
 if __name__ == '__main__':
     fptr = sys.stdout
-    print("Escribe las notas de a (recuerda que debes introducir 3):")
+    print("Escribe las notas de Lucía (recuerda que debes introducir 3):")
     a = list(map(int, input().rstrip().split()))
 
-    print("Escribe las notas de b (recuerda que son 3):")
+    print("Escribe las notas de Carlos (recuerda que son 3):")
     b = list(map(int, input().rstrip().split()))
     result = compareTriplets(a, b)
 
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
-
 ```
 ***
 
