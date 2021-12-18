@@ -4,11 +4,9 @@ import random
 import re
 import sys
 
-def countApplesAndOranges(s, t, a, b, apples, oranges):
-
-
-
-
+def contarmanzanasnaranjas(s, t, a, b, apples, oranges):
+    manzanasdentro=0
+    naranjasdentro=0
 
 
 if __name__ == '__main__':
@@ -23,4 +21,4 @@ if __name__ == '__main__':
     n = int(third_multiple_input[1])
     apples = list(map(int, input().rstrip().split()))
     oranges = list(map(int, input().rstrip().split()))
-    countApplesAndOranges(s, t, a, b, apples, oranges)
+    contarmanzanasnaranjas(s, t, a, b, apples, oranges)
