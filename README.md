@@ -32,6 +32,12 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/TrabajoGrupa
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/1?closed=1)
 
+**El digrama de flujo es el siguiente:**
+
+![tarea 1](https://user-images.githubusercontent.com/91721875/146649386-c84d6143-f95e-40f1-ada0-2c1d356fc4b2.jpg)
+
+
+
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -79,6 +85,11 @@ if __name__ == "__main__":
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/4?closed=1)
 
+**El diagrama de flujo es el siguiente:**
+![tarea 2](https://user-images.githubusercontent.com/91721875/146649604-bad62170-e37a-4039-9ecd-dd1618f34327.jpg)
+
+
+
 **El código empleado para resolverlo es el siguiente:**
 ```python
 def escalera(tamaño):
@@ -101,12 +112,198 @@ if __name__ == "__main__":
 ```
 ***
 
-## Ejercicio 5<a name="id5"></a>
+## Ejercicio 5: Juego de piedras<a name="id5"></a>
 
+*En el quinto ejercicio teníamos que realizar un programa capaz de ejecutar un juego de unas piedras en las cuales los 2 jugadores van quitando un númrro de piedras concreto que tiene que ser 2, 3 o 5 y el jugador que se quede sin movimientos pierde, siempre empieza el P1 y se van alternando*
+
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/5?closed=1)
+
+**El diagrama de flujo es el siguiente:**
+
+![JUEGO 5](https://user-images.githubusercontent.com/91721875/146653078-35d0602c-65ee-4fdf-89d9-102753a33967.jpg)
+
+
+
+
+```python
+import math
+import os
+import random
+import re
+import sys
+
+def JuegoPiedras(n):
+    ganador=""
+    if(jugadaperfecta(n)!=0):
+        ganador="P1 is the winner"
+    else:
+        ganador ="P2 is the winner"
+    return ganador
+
+def jugadaperfecta(n):
+    buenajugada=0
+    modulo=n%7
+    if(modulo>=2 and modulo<=3):
+        buenajugada=2
+    elif(modulo==4):
+        buenajugada=3
+    elif(modulo>=5 and modulo<=6):
+        buenajugada=5
+    return buenajugada
+
+def Ejecutarjuego(n):
+    intentos=0
+    ganador=""
+    while(ganador!="P1 is the winner" and ganador!="P2 is the winner"):
+        jugada=jugadaperfecta(n)
+        if(jugada==0):
+            if(n>5):
+                jugada=5
+            elif(n>3):
+                jugada=3
+            else:
+                jugada=2
+        print("Juega P"+str((intentos%2)+1) +" quitando "+ str(jugada)+" piedras")
+        n=n-jugada
+        if(n==1 or n==0):
+            ganador=("P"+str((intentos%2)+1)+" is the winner")
+        intentos+=1
+    print(ganador)
+
+
+if __name__ == '__main__':
+    fptr = sys.stdout
+    print("Cuántas partidas quieres jugar?")
+    t = int(input().strip())
+
+    for t_itr in range(t):
+        print("¿Cuántas piedras tienes?")
+        n = int(input().strip())
+        result = JuegoPiedras(n)
+        Ejecutarjuego(n)
+        fptr.write(result + '\n')
+
+    fptr.close()
+```
 ***
 
 
 ## Ejercicio 6<a name="id6"></a>
+
+
+
+**El código empleado para resolverlo es el siguiente:**
+
+```python
+import math
+import os
+import random
+import re
+import sys
+
+class Coordenadas:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def comparate(self,x,y):
+        if(self.x==x and self.y==y):
+            return True
+        else:
+            return False
+class Tunel:
+    def __init__(self, x1, y1, x2, y2):
+        self.extremo1 = Coordenadas(x1, y1)
+        self.extremo2 = Coordenadas(x2, y2)
+
+def buscaTunel(Casillax,Casillay,tuneles):
+    coordenadas = Coordenadas(Casillax, Casillay)
+    for t in tuneles:
+        if(t.extremo1.comparate(Casillax,Casillay)):
+            coordenadas.x=t.extremo2.x
+            coordenadas.y=t.extremo2.y
+            break
+        elif(t.extremo2.comparate(Casillax,Casillay)):
+            coordenadas.x=t.extremo1.x
+            coordenadas.y=t.extremo1.y
+            break
+    return coordenadas
+
+def exploracion(Casillax, Casillay, laberinto, n , m, tuneles):
+    num=0
+    den=0
+    probabilidad=0.0
+    if(Casillax>0 and laberinto[Casillax-1][Casillay]!="#"):
+        den +=1
+        if(laberinto[Casillax-1][Casillay]=="%"):
+            num+=1
+    if(Casillax<n-1 and laberinto[Casillax+1][Casillay]!="#"):
+        den +=1
+        if(laberinto[Casillax+1][Casillay]=="%"):
+            num+=1
+    if(Casillay<m-1 and laberinto[Casillax][Casillay+1]!="#"):
+        den +=1
+        if(laberinto[Casillax][Casillay+1]=="%"):
+            num+=1
+    if(Casillay>0 and laberinto[Casillax][Casillay-1]!="#"):
+        den +=1
+        if(laberinto[Casillax][Casillay-1]=="%"):
+            num+=1
+    if(den==0):
+        return probabilidad
+    probabilidad=num/den
+    if(Casillax>0 and laberinto[Casillax-1][Casillay]=="$"):
+        laberintocopia=laberinto
+        coordenadas= buscaTunel(Casillax-1,Casillay,tuneles)
+        laberintocopia[Casillax][Casillay]="#"
+        probabilidad+=exploracion(coordenadas.x,coordenadas.y, laberintocopia, n , m, tuneles)/den
+    if(Casillax<n-1 and laberinto[Casillax+1][Casillay]=="$"):
+        laberintocopia=laberinto
+        coordenadas= buscaTunel(Casillax+1,Casillay,tuneles)
+        laberintocopia[Casillax][Casillay]="#"
+        probabilidad+=exploracion(coordenadas.x,coordenadas.y, laberintocopia, n , m, tuneles)/den
+    if(Casillay<m-1 and laberinto[Casillax][Casillay+1]=="$"):
+        laberintocopia=laberinto
+        coordenadas= buscaTunel(Casillax,Casillay+1,tuneles)
+        laberintocopia[Casillax][Casillay]="#"
+        probabilidad+=exploracion(coordenadas.x,coordenadas.y, laberintocopia, n , m, tuneles)/den
+    if(Casillay>0 and laberinto[Casillax][Casillay-1]=="$"):
+        laberintocopia=laberinto
+        coordenadas= buscaTunel(Casillax,Casillay-1,tuneles)
+        laberintocopia[Casillax][Casillay]="#"
+        probabilidad+=(exploracion(coordenadas.x,coordenadas.y, laberintocopia, n , m, tuneles)/den)
+    return probabilidad
+
+if __name__ == '__main__':
+    first_multiple_input = input("Ingrese las dimensiones del laberinto y la cantidad de tuneles (filas columnas tuneles):").rstrip().split()
+
+    n = int(first_multiple_input[0])
+
+    m = int(first_multiple_input[1])
+
+    k = int(first_multiple_input[2])
+    laberinto=[]
+
+    for n_itr in range(n):
+        row = input("Fila " + str(n_itr) + " del laberinto:(# -> muro, % -> salida, * -> bomba, $ -> vacia, o -> tunel")
+        laberinto.append(list(row))
+
+    tuneles=[]
+    for k_itr in range(k):
+        second_multiple_input = input("Coordenadas(i1 j1 i2 j2) del tunel " +str(k_itr)).rstrip().split()
+
+        i1 = int(second_multiple_input[0])
+        j1 = int(second_multiple_input[1])
+        i2 = int(second_multiple_input[2])
+        j2 = int(second_multiple_input[3])
+        tuneles.append(Tunel(i1,j1,i2,j2))
+
+    third_multiple_input = input("Coordenadas(i j) iniciales de la rana:").rstrip().split()
+    pos1= int(third_multiple_input[0])
+    pos2= int(third_multiple_input[1])
+    
+    probabilidad= exploracion(pos1,pos2,laberinto,n,m,tuneles)
+    print(probabilidad)
+```
 
 ***
 
