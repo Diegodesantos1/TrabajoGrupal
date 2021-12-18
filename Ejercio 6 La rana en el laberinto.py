@@ -10,7 +10,12 @@ class Coordenadas:
         self.x=x
         self.y=y
     def comparate(self, x, y):
-        
+        if (self.x==x and self.y==y):
+            return True
+        else:
+            return False
+
+
 
 
 
