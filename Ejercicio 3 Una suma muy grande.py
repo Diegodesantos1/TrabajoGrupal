@@ -12,8 +12,11 @@ import sys
 #
 def aVeryBigSum(ar):
 # Write your code here
+
+
 if __name__ == '__main__':
-    fptr = sys.stdout
+    fptr = sys.stdout #código perteneciente a satckoverflow
+    print('Escribe un número:')
     ar_count = int(input().strip())
     ar = list(map(int, input().rstrip().split()))
     result = aVeryBigSum(ar)
