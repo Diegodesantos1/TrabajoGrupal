@@ -25,6 +25,9 @@ def compareTriplets(a, b):
             puntosA +=1
             puntosB +=1
 
+    puntos_totales = [puntosA,puntosB]
+    return puntos_totales
+
 
 if __name__ == '__main__':
     fptr = sys.stdout
