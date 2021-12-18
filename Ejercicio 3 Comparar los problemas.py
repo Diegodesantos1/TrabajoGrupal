@@ -16,6 +16,9 @@ def compareTriplets(a, b):
     puntosA = 0
     puntosB = 0
 
+    for i in range(0,3):
+        
+
 if __name__ == '__main__':
     fptr = sys.stdout
     print("Escribe las notas de a (recuerda que debes introducir 3):")
@@ -24,6 +27,7 @@ if __name__ == '__main__':
     print("Escribe las notas de b (recuerda que son 3):")
     b = list(map(int, input().rstrip().split()))
     result = compareTriplets(a, b)
+
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
