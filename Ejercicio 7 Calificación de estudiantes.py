@@ -12,6 +12,7 @@ import sys
 #
 
 def gradingStudents(grades):
+    list = []
 
 
 
