@@ -70,12 +70,14 @@ if __name__ == "__main__":
 
 ## Ejercicio 2<a name="id2"></a>
 
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2?closed=1)
 
 ***
 
 
 ## Ejercicio 3<a name="id3"></a>
 
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/3?closed=1)
 
 **El diagrama de flujo es el siguiente:**
 
@@ -235,7 +237,7 @@ if __name__ == '__main__':
 
 ## Ejercicio 6<a name="id6"></a>
 
-
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/6?closed=1)
 
 **El código empleado para resolverlo es el siguiente:**
 
