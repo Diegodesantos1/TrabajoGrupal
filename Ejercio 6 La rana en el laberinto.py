@@ -80,7 +80,7 @@ def exploracion(Casillax, Casillay, laberinto, n, m, tuneles):
 
     
 if __name__ == '__main__':
-    first_multiple_input = input().rstrip().split()
+    first_multiple_input = input("Introduzca las coordenadas del laberinto:").rstrip().split()
 
     n = int(first_multiple_input[0])
     m = int(first_multiple_input[1])
