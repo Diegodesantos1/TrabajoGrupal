@@ -15,8 +15,10 @@ import sys
 def compareTriplets(a, b):
     puntosA = 0
     puntosB = 0
+
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = sys.stdout
+    
     a = list(map(int, input().rstrip().split()))
     b = list(map(int, input().rstrip().split()))
     result = compareTriplets(a, b)
