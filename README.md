@@ -272,7 +272,8 @@ if __name__ == '__main__':
 
 **El código empleado para resolverlo es el siguiente:**
 
-```python
+```
+from io import DEFAULT_BUFFER_SIZE
 import math
 import os
 import random
@@ -281,35 +282,36 @@ import sys
 
 class Coordenadas:
     def __init__(self, x, y):
-        self.x = x
-        self.y = y
-    def comparate(self,x,y):
-        if(self.x==x and self.y==y):
+        self.x=x
+        self.y=y
+    def comparate(self, x, y):
+        if (self.x==x and self.y==y):
             return True
         else:
             return False
+
 class Tunel:
     def __init__(self, x1, y1, x2, y2):
-        self.extremo1 = Coordenadas(x1, y1)
-        self.extremo2 = Coordenadas(x2, y2)
+        self.extremo1 = Coordenadas(x1,y1)
+        self.extremo2 = Coordenadas(x2,y2)
 
-def buscaTunel(Casillax,Casillay,tuneles):
-    coordenadas = Coordenadas(Casillax, Casillay)
+def buscaTunel (Casillax, Casillay, tuneles):
+    coordenadas = Coordenadas (Casillax, Casillay)
     for t in tuneles:
-        if(t.extremo1.comparate(Casillax,Casillay)):
+        if(t.extremo1.comporate(Casillax,Casillay)):
             coordenadas.x=t.extremo2.x
             coordenadas.y=t.extremo2.y
             break
-        elif(t.extremo2.comparate(Casillax,Casillay)):
+        elif(t.extremo2.comporate(Casillax,Casillay)):
             coordenadas.x=t.extremo1.x
             coordenadas.y=t.extremo1.y
             break
-    return coordenadas
+        return coordenadas
 
-def exploracion(Casillax, Casillay, laberinto, n , m, tuneles):
-    num=0
-    den=0
-    probabilidad=0.0
+def exploracion(Casillax, Casillay, laberinto, n, m, tuneles):
+    num = 0
+    den = 0
+    probabilidad= 0.0
     if(Casillax>0 and laberinto[Casillax-1][Casillay]!="#"):
         den +=1
         if(laberinto[Casillax-1][Casillay]=="%"):
@@ -351,37 +353,35 @@ def exploracion(Casillax, Casillay, laberinto, n , m, tuneles):
         probabilidad+=(exploracion(coordenadas.x,coordenadas.y, laberintocopia, n , m, tuneles)/den)
     return probabilidad
 
+    
 if __name__ == '__main__':
-    first_multiple_input = input("Ingrese las dimensiones del laberinto y la cantidad de tuneles (filas columnas tuneles):").rstrip().split()
+    first_multiple_input = input("Introduzca las coordenadas del laberinto:").rstrip().split()
 
     n = int(first_multiple_input[0])
-
     m = int(first_multiple_input[1])
-
     k = int(first_multiple_input[2])
-    laberinto=[]
+    laberinto = []
 
-    for n_itr in range(n):
-        row = input("Fila " + str(n_itr) + " del laberinto:(# -> muro, % -> salida, * -> bomba, $ -> vacia, o -> tunel")
-        laberinto.append(list(row))
-
-    tuneles=[]
-    for k_itr in range(k):
-        second_multiple_input = input("Coordenadas(i1 j1 i2 j2) del tunel " +str(k_itr)).rstrip().split()
-
-        i1 = int(second_multiple_input[0])
-        j1 = int(second_multiple_input[1])
-        i2 = int(second_multiple_input[2])
-        j2 = int(second_multiple_input[3])
-        tuneles.append(Tunel(i1,j1,i2,j2))
-
-    third_multiple_input = input("Coordenadas(i j) iniciales de la rana:").rstrip().split()
-    pos1= int(third_multiple_input[0])
-    pos2= int(third_multiple_input[1])
     
-    probabilidad= exploracion(pos1,pos2,laberinto,n,m,tuneles)
-    print(probabilidad)
-```
+    for n_itr in range(n):
+        row = input("Fila" + str(n_itr) + "del laberinto:(#--> muro, %--> salida, *-->bomba, $--> vacía, o--> tunel")
+        laberinto.append(list(row))
+    tuneles = []
+
+for k_itr in range(k):
+    second_multiple_input = input("Coordenadas(i1 j1 i2 j2) del túnel"+ str(k_itr)).rstrip().split()
+
+    i1 = int(second_multiple_input[0])
+    j1 = int(second_multiple_input[1])
+    i2 = int(second_multiple_input[2])
+    j2 = int(second_multiple_input[3])
+
+third_multiple_input = input("Coordenadas(i1 j1 i2 j2) de la rana").rstrip().split()
+pos1= int(third_multiple_input[0])
+pos2 = int(third_multiple_input[0])
+
+probabilidad = exploracion(pos1,pos2,laberinto,n,m,tuneles)
+print(probabilidad)```
 
 ***
 
