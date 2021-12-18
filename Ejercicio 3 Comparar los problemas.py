@@ -13,7 +13,8 @@ import sys
 # 2. INTEGER_ARRAY b
 #
 def compareTriplets(a, b):
-# Write your code here
+    puntosA = 0
+    puntosB = 0
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     a = list(map(int, input().rstrip().split()))
