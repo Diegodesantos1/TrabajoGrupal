@@ -23,6 +23,16 @@ class Tunel:
 def buscaTunel (Casillax, Casillay, tuneles):
     coordenadas = Coordenadas (Casillax, Casillay)
     for t in tuneles:
+        if(t.extremo1.comporate(Casillax,Casillay)):
+            coordenadas.x=t.extremo2.x
+            coordenadas.y=t.extremo2.y
+            break
+        elif(t.extremo2.comporate(Casillax,Casillay)):
+            coordenadas.x=t.extremo1.x
+            coordenadas.y=t.extremo1.y
+            break
+        return coordenadas
+
         
 
 
