@@ -82,7 +82,7 @@ if __name__ == "__main__":
 ![EJERCIO 3 ](https://user-images.githubusercontent.com/91721875/146654195-e1018a42-aee2-4ba7-b248-af053d79c4f4.jpg)
 
 
-**El código epleado para resolverlo es el siguiente:**
+**El código empleado para resolverlo es el siguiente:**
 
 ```
 import math
