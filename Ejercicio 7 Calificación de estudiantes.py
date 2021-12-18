@@ -14,6 +14,8 @@ import sys
 def gradingStudents(grades):
     list = []
     for grade in (grades):
+        list.append(notas_finales(grade)) #El punto append sirve para añadir 
+    return list
         
 
 
