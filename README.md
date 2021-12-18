@@ -118,6 +118,11 @@ if __name__ == "__main__":
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/5?closed=1)
 
+**El diagrama de flujo es el siguiente:**
+
+![JUEGO 5](https://user-images.githubusercontent.com/91721875/146653032-36b3418b-6479-4b60-bb7f-a520d089ce1c.jpg)
+
+
 
 ```python
 import math
