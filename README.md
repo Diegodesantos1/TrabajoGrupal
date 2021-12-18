@@ -268,6 +268,8 @@ if __name__ == '__main__':
 
 ## Ejercicio 6: Laberinto<a name="id6"></a>
 
+*En el sexto ejercicio teníamos que realizar un programa capaz de calcular la probabilidad de que una rana escapase de un laberinto dada su dimensión, paredes, túneles y bombas*
+
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/6?closed=1)
 
 
