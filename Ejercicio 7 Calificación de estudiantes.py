@@ -13,6 +13,8 @@ import sys
 
 def gradingStudents(grades):
     list = []
+    for grade in (grades):
+        
 
 
 
