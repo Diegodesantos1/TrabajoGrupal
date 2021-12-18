@@ -1,17 +1,10 @@
-#!/bin/python3
+
 import math
 import os
 import random
 import re
 import sys
-#
-# Complete the 'compareTriplets' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts following parameters:
-# 1. INTEGER_ARRAY a
-# 2. INTEGER_ARRAY b
-#
+
 def compareTriplets(a, b):
     puntosA = 0
     puntosB = 0
@@ -24,6 +17,9 @@ def compareTriplets(a, b):
         else:
             puntosA +=1
             puntosB +=1
+
+    puntos_totales = [puntosA,puntosB]
+    return puntos_totales
 
 
 if __name__ == '__main__':
