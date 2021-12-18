@@ -16,8 +16,15 @@ def compareTriplets(a, b):
     puntosA = 0
     puntosB = 0
 
-    for i in range(0,3):
-        
+    for i in range(0,3): #El tipo range es una lista inmutable de números enteros en sucesión aritmética.
+        if a[i]<b[i]:
+            puntosB +=1
+        elif a[i]>b[i]:
+            puntosA +=1
+        else:
+            puntosA +=1
+            puntosB +=1
+
 
 if __name__ == '__main__':
     fptr = sys.stdout
