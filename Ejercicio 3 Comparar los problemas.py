@@ -18,8 +18,10 @@ def compareTriplets(a, b):
 
 if __name__ == '__main__':
     fptr = sys.stdout
-    print( "Escribe las notas de a (recuerda que debes introducir 3)")
+    print("Escribe las notas de a (recuerda que debes introducir 3):")
     a = list(map(int, input().rstrip().split()))
+
+    print("Escribe las notas de b (recuerda que son 3):")
     b = list(map(int, input().rstrip().split()))
     result = compareTriplets(a, b)
     fptr.write(' '.join(map(str, result)))
