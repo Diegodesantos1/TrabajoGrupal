@@ -13,7 +13,7 @@ import sys
 def aVeryBigSum(ar):
 # Write your code here
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = sys.stdout
     ar_count = int(input().strip())
     ar = list(map(int, input().rstrip().split()))
     result = aVeryBigSum(ar)
