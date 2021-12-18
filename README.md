@@ -392,7 +392,11 @@ if __name__ == '__main__':
 
 ***
 
-## Ejercicio 7<a name="id7"></a>
+## Ejercicio 7:Estudiantes de calificación<a name="id7"></a>
+
+*En el séptimo ejercicio teníamos que realizar un programa capaz de redondear notas asignadas a los estudiantes según los criterios establecidos*
+
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/7?closed=1)
 
 **El diagrama de flujo es el siguiente:**
 ![EJERCICIO 7](https://user-images.githubusercontent.com/91721875/146656045-950c5403-6987-4627-b76d-00380b90331d.jpg)
