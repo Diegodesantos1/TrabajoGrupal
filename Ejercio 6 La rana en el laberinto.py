@@ -33,6 +33,9 @@ def buscaTunel (Casillax, Casillay, tuneles):
             break
         return coordenadas
 
+def exploracion(Casillax, Casillay, laberinto, n, m, tuneles):
+    
+
         
 
 
