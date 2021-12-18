@@ -12,6 +12,8 @@ import sys
 #
 def aVeryBigSum(ar):
     suma = 0
+    for i in ar:
+        
 
 
 if __name__ == '__main__':
