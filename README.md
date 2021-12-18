@@ -466,6 +466,10 @@ if __name__ == '__main__':
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/8?closed=1)
 
+**El diagrama de flujo es el siguiente:**
+![MANZANA Y NARANJA](https://user-images.githubusercontent.com/91721875/146658038-91ec72ba-21d8-474a-8aeb-21866f04f984.jpg)
+
+
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
