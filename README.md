@@ -431,7 +431,7 @@ def notas_finales(grades):
 
 
 if __name__ == '__main__':
-    fptr = sys.stdoubt
+    fptr = sys.stdout
 
     grades_count = int(input().strip()) 
     grades = []
