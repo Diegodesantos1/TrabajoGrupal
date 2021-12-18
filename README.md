@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
 **El código empleado para resolverlo es el siguiente:**
 
-```
+```python
 import math
 import os
 import random
