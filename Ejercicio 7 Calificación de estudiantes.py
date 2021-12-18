@@ -57,6 +57,7 @@ if __name__ == '__main__':
 
     result = gradingStudents(grades)
 
+    print('\n Notas redondeadas (según apliqué: \n')
     fptr.write('\n'.join(map(str, result)))
     fptr.write('\n')
 
