@@ -13,6 +13,9 @@ def contarmanzanasnaranjas(s, t, a, b, apples, oranges):
     for naranja in oranges:
         if(b+naranja>=s and b+naranja<=t):
             naranjasdentro+=1
+    print(f"Han caido {manzanasdentro} manzanas dentro")
+    print(f"Han caido {naranjasdentro} naranjas dentro")
+
 
 
 if __name__ == '__main__':
