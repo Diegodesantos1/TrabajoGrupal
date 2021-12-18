@@ -26,6 +26,9 @@ def notas_finales(grades):
     if grades < 40:
         nota_redondeada = grades
     else:
+        conciente = int(grades/5+1)
+        multiplo=conciente*5
+    
     
 
 
