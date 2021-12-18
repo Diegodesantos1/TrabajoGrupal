@@ -65,9 +65,9 @@ if __name__ == "__main__":
 ```
 ***
 
-## Ejercicio 2<a name="id2"></a>
+## Ejercicio 2: Compara los problemas<a name="id2"></a>
 
-*En el segundo ejercicio teníamos que realizar un programa que dieses la nota final de tanto Lucía como carlos, asignandoles unos criterios, y después compararlas*
+*En el segundo ejercicio teníamos que realizar un programa al cual das un valor a la nota final de tanto Lucía como carlos, asignandoles unos criterios, y después compararlas*
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2?closed=1)
 
@@ -114,11 +114,15 @@ if __name__ == "__main__":
 ***
 
 
-## Ejercicio 3<a name="id3"></a>
+## Ejercicio 3: Una suma muy grande<a name="id3"></a>
 
+
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2?closed=1)
+
+*En el tercer ejercicio teníamos que realizar un programa*
+ 
 
 **El diagrama de flujo es el siguiente:**
-
 
 ![EJERCIO 3 0](https://user-images.githubusercontent.com/91721875/146655081-40f6de69-c68d-43ae-a45b-e5ab36774c35.jpg)
 
