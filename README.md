@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
 *En el tercer ejercicio teníamos que realizar un programa que dada una sucesión de números, sea capaz de hallar el valor total de la suma*
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/3?closed=1)
 
 **El diagrama de flujo es el siguiente:**
 
