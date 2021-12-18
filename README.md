@@ -385,7 +385,7 @@ if __name__ == '__main__':
 
 ***
 
-## Ejercicio 7:Estudiantes de calificación<a name="id7"></a>
+## Ejercicio 7: Estudiantes de calificación<a name="id7"></a>
 
 *En el séptimo ejercicio teníamos que realizar un programa capaz de redondear notas asignadas a los estudiantes según los criterios establecidos*
 
@@ -452,7 +452,7 @@ if __name__ == '__main__':
 ```
 ***
 
-## Ejercicio 8<a name="id8"></a>
+## Ejercicio 8: La manzana y naranja<a name="id8"></a>
 
 *En el octavo y último ejercicio teníamos que realizar un programa capaz de calcular el número de manzanas y naranjas que caen dentro de la casa de Sam, esta está denotada por dos números enteros, además hay que establecer la ubicación del manzano y del naranjo, el número de manzanas y naranjas que caían y su posición respecto del árbol de origen*
 
