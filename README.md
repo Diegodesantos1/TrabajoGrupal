@@ -85,6 +85,11 @@ if __name__ == "__main__":
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/4?closed=1)
 
+**El diagrama de flujo es el siguiente:**
+![tarea 2](https://user-images.githubusercontent.com/91721875/146649604-bad62170-e37a-4039-9ecd-dd1618f34327.jpg)
+
+
+
 **El código empleado para resolverlo es el siguiente:**
 ```python
 def escalera(tamaño):
