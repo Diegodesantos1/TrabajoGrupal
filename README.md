@@ -25,7 +25,7 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/TrabajoGrupa
 7. [Ejercicio7](#id7)
 8. [Ejercicio8](#id8)
 ***
-## Ejercicio 1<a name="id1"></a>
+## Ejercicio 1: Suma simple de una matriz<a name="id1"></a>
 
 *En el primer ejercicio teníamos que realizar una suma de los elementos de una matriz, según el tamaño introducido y sus respectivos elementos*
 
