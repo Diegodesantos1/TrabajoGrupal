@@ -34,7 +34,8 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/1
 
 **El digrama de flujo es el siguiente:**
 
-![figma tarea 1](https://user-images.githubusercontent.com/91721875/146649305-28f4f8cc-3ede-49c2-995e-72fa105a3b3a.jpg)
+![tarea 1](https://user-images.githubusercontent.com/91721875/146649386-c84d6143-f95e-40f1-ada0-2c1d356fc4b2.jpg)
+
 
 
 **El código empleado para resolverlo es el siguiente:**
