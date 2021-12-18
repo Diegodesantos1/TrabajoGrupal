@@ -121,6 +121,8 @@ if __name__ == '__main__':
 **El diagrama de flujo es el siguiente:**
 
 
+![EJERCIO 3 0](https://user-images.githubusercontent.com/91721875/146655081-40f6de69-c68d-43ae-a45b-e5ab36774c35.jpg)
+
 
 
 **El código empleado para resolverlo es el siguiente:**
@@ -142,12 +144,19 @@ def aVeryBigSum(ar):
 
 if __name__ == '__main__':
     fptr = sys.stdout #código perteneciente a satckoverflow
+
     print('Escribe un número:')
     ar_count = int(input().strip())
+    selección = print(ar_count)
+
     print('Escriba una sucesión de números separados por espacios:')
     ar = list(map(int, input().rstrip().split()))
-    result = aVeryBigSum(ar)
+    seleccion_2 = print(ar)
+
+    
+    result = print('La resultado de la suma es igual a:', aVeryBigSum(ar))
     fptr.write(str(result) + '\n')
+    
     fptr.close()
 ```
 ***
