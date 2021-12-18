@@ -7,6 +7,9 @@ import sys
 def contarmanzanasnaranjas(s, t, a, b, apples, oranges):
     manzanasdentro=0
     naranjasdentro=0
+    for manzana in apples:
+        if(a+manzana>=s and a+manzana<=t):
+            manzanasdentro+=1
 
 
 if __name__ == '__main__':
