@@ -272,6 +272,10 @@ if __name__ == '__main__':
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/6?closed=1)
 
+**El diagrama de flujo es el siguiente:**
+
+
+![RANA](https://user-images.githubusercontent.com/91721875/146657697-f7b86cf0-7f93-4eba-9b12-608b6ccc58b2.jpg)
 
 **El código empleado para resolverlo es el siguiente:**
 
