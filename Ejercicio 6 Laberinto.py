@@ -1,4 +1,3 @@
-from io import DEFAULT_BUFFER_SIZE
 import math
 import os
 import random
@@ -89,19 +88,21 @@ if __name__ == '__main__':
 
     
     for n_itr in range(n):
-        row = input("Fila" + str(n_itr) + "del laberinto:(#--> muro, %--> salida, *-->bomba, $--> vacía, o--> tunel")
+        print("Fila" +  str(n_itr) + "del laberinto:(#--> muro, %--> salida, *-->bomba, $--> vacía, o--> tunel")
+        row = input()
         laberinto.append(list(row))
     tuneles = []
 
 for k_itr in range(k):
-    second_multiple_input = input("Coordenadas(i1 j1 i2 j2) del túnel"+ str(k_itr)).rstrip().split()
+    print("Coordenadas(i1 j1 i2 j2) del túnel"+  str(k_itr)).rstrip().split()
+    second_multiple_input = input()
 
     i1 = int(second_multiple_input[0])
     j1 = int(second_multiple_input[1])
     i2 = int(second_multiple_input[2])
     j2 = int(second_multiple_input[3])
-
-third_multiple_input = input("Coordenadas(i1 j1 i2 j2) de la rana").rstrip().split()
+print("Coordenadas(i1 j1 i2 j2) de la rana").rstrip().split()
+third_multiple_input = input()
 pos1= int(third_multiple_input[0])
 pos2 = int(third_multiple_input[0])
 
