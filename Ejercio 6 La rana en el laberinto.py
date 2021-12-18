@@ -1,3 +1,4 @@
+from io import DEFAULT_BUFFER_SIZE
 import math
 import os
 import random
@@ -5,7 +6,10 @@ import re
 import sys
 
 class Coordenadas:
-    
+    def __init__(self, x, y):
+        self.x=x
+        self.y=y
+
 
 
 
