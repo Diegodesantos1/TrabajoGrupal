@@ -35,8 +35,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/1
 
 ![tarea 1](https://user-images.githubusercontent.com/91721875/146649386-c84d6143-f95e-40f1-ada0-2c1d356fc4b2.jpg)
 
-
-
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -124,8 +122,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/2
 
 ![EJERCIO 3 0](https://user-images.githubusercontent.com/91721875/146655081-40f6de69-c68d-43ae-a45b-e5ab36774c35.jpg)
 
-
-
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -173,7 +169,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/4
 ![tarea 2](https://user-images.githubusercontent.com/91721875/146649604-bad62170-e37a-4039-9ecd-dd1618f34327.jpg)
 
 
-
 **El código empleado para resolverlo es el siguiente:**
 
 ```python
@@ -207,8 +202,7 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/5
 
 ![JUEGO 5](https://user-images.githubusercontent.com/91721875/146653078-35d0602c-65ee-4fdf-89d9-102753a33967.jpg)
 
-
-
+**El código empleado para resolverlo es el siguiente:**
 
 ```python
 import math
@@ -271,7 +265,6 @@ if __name__ == '__main__':
     fptr.close()
 ```
 ***
-
 
 ## Ejercicio 6<a name="id6"></a>
 
@@ -400,8 +393,6 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/7
 
 **El diagrama de flujo es el siguiente:**
 ![EJERCICIO 7](https://user-images.githubusercontent.com/91721875/146656045-950c5403-6987-4627-b76d-00380b90331d.jpg)
-
-
 
 **El código empleado para resolverlo es el siguiente:**
 
