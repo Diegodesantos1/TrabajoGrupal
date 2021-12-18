@@ -94,10 +94,16 @@ if __name__ == '__main__':
     tuneles = []
 
 for k_itr in range(k):
-    second_multiple_input = input().rstrip().split()
+    second_multiple_input = input("Coordenadas(i1 j1 i2 j2) del túnel"+ str(k_itr)).rstrip().split()
+
     i1 = int(second_multiple_input[0])
     j1 = int(second_multiple_input[1])
     i2 = int(second_multiple_input[2])
     j2 = int(second_multiple_input[3])
-# Write your code here
-# Write your code here
+
+third_multiple_input = input("Coordenadas(i1 j1 i2 j2) de la rana").rstrip().split()
+pos1= int(third_multiple_input[0])
+pos2 = int(third_multiple_input[0])
+
+probabilidad = exploracion(pos1,pos2,laberinto,n,m,tuneles)
+print(probabilidad)
