@@ -52,9 +52,7 @@ def Suma(numeros):
 
 
 if __name__ == "__main__":
-    fptr = (
-        sys.stdout
-    )  # Arreglado el error que no dejaba funcionar el código, de stackoverflow
+    fptr = sys.stdout  # Arreglado el error que no dejaba funcionar el código, de stackoverflow
     print("¿De qué tamaño quieres la matriz?")
     ar_count = int(input().strip())
     print("Introduzca los elementos de la matriz a sumar separados por un espacio")
