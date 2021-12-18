@@ -266,13 +266,13 @@ if __name__ == '__main__':
 ```
 ***
 
-## Ejercicio 6<a name="id6"></a>
+## Ejercicio 6: Laberinto<a name="id6"></a>
 
 
 
 **El código empleado para resolverlo es el siguiente:**
 
-```
+```python
 from io import DEFAULT_BUFFER_SIZE
 import math
 import os
