@@ -24,7 +24,8 @@ if __name__ == '__main__':
     ar = list(map(int, input().rstrip().split()))
     seleccion_2 = print(ar)
 
-    result = aVeryBigSum(ar)
+    
+    result = print('La resultado de la suma es igual a:', aVeryBigSum(ar))
     fptr.write(str(result) + '\n')
-    print('La solución es igual:', result)
+    
     fptr.close()
