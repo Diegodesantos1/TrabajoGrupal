@@ -120,7 +120,8 @@ Aquí su [Milestone](https://github.com/Diegodesantos1/TrabajoGrupal/milestone/5
 
 **El diagrama de flujo es el siguiente:**
 
-![JUEGO 5](https://user-images.githubusercontent.com/91721875/146653032-36b3418b-6479-4b60-bb7f-a520d089ce1c.jpg)
+![JUEGO 5](https://user-images.githubusercontent.com/91721875/146653078-35d0602c-65ee-4fdf-89d9-102753a33967.jpg)
+
 
 
 
